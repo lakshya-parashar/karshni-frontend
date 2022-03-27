@@ -15,6 +15,8 @@ import {HowItWorksComponent} from "./pages/how-it-works.component";
 import {HowHeroMainComponent} from "./containers/how-it-works/how-hero-main.component";
 import {FooterComponent} from "./components/layout/footer.component";
 import {FlexLayoutModule} from "@angular/flex-layout";
+import {ContactComponent} from "./pages/contact.component";
+import {ContactHeroMainComponent} from "./containers/contact/contact-hero-main.component";
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import {FlexLayoutModule} from "@angular/flex-layout";
     WhyUsComponent,
     HowItWorksComponent,
     HowHeroMainComponent,
-    FooterComponent
+    FooterComponent,
+    ContactComponent,
+    ContactHeroMainComponent
   ],
   imports: [
     BrowserModule,
