@@ -11,6 +11,7 @@ import {Component} from "@angular/core";
       <app-boxes></app-boxes>
       <app-red-circle></app-red-circle>
       <app-why-us></app-why-us>
+      <app-footer></app-footer>
     </div>
   `,
   styles: [`

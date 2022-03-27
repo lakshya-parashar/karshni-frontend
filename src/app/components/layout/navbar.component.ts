@@ -13,17 +13,20 @@ import {Component} from "@angular/core";
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" target="_blank" href="https://www.linkedin.com/in/karshni-architects-246767187/">
+              <a class="nav-link active" target="_blank"
+                 href="https://www.linkedin.com/in/karshni-architects-246767187/">
                 <i class="fa-brands fa-linkedin-in"></i>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" target="_blank" href="https://instagram.com/karshniarchitectsinterior?utm_medium=copy_link">
+              <a class="nav-link active" target="_blank"
+                 href="https://instagram.com/karshniarchitectsinterior?utm_medium=copy_link">
                 <i class="fa-brands fa-instagram"></i>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" target="_blank" aria-current="page" href="https://www.youtube.com/channel/UCKaN3TU_IbC6Jcg-x02HYGw">
+              <a class="nav-link active" target="_blank" aria-current="page"
+                 href="https://www.youtube.com/channel/UCKaN3TU_IbC6Jcg-x02HYGw">
                 <i class="fa-brands fa-youtube"></i>
               </a>
             </li>
@@ -61,7 +64,7 @@ import {Component} from "@angular/core";
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">How It Works</a>
+              <a class="nav-link active" aria-current="page" href="/how-it-works">How It Works</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="/about">About Us</a>

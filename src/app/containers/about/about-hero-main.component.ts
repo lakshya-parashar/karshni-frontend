@@ -1,7 +1,7 @@
 import {Component} from "@angular/core";
 
 @Component({
-  selector: 'app-hero-main',
+  selector: 'app-about-hero-main',
   template: `
     <div class="main">
       <app-navbar></app-navbar>
@@ -15,13 +15,12 @@ import {Component} from "@angular/core";
           </div>
         </div>
       </div>
-      <ng-content></ng-content>
     </div>
   `,
   styles: [`
     .main {
       height: 80vh;
-      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../assets/CF4.jpg");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../../assets/CF4.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       width: 100%;
@@ -53,5 +52,5 @@ import {Component} from "@angular/core";
   `]
 })
 
-export class HeroMainComponent {
+export class AboutHeroMainComponent {
 }

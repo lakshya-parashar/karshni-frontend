@@ -4,7 +4,7 @@ import {Component} from "@angular/core";
   selector: 'app-about',
   template: `
     <div>
-      <app-hero-main></app-hero-main>
+      <app-about-hero-main></app-about-hero-main>
     </div>
   `,
   styles: [``]
