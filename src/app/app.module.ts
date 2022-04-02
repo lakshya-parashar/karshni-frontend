@@ -17,6 +17,9 @@ import {FooterComponent} from "./components/layout/footer.component";
 import {FlexLayoutModule} from "@angular/flex-layout";
 import {ContactComponent} from "./pages/contact.component";
 import {ContactHeroMainComponent} from "./containers/contact/contact-hero-main.component";
+import {CarouselModule} from "ngx-owl-carousel-o";
+import {AboutMainComponent} from "./containers/about/about-main.component";
+import {WhatsappComponent} from "./components/whatsapp.component";
 
 @NgModule({
   declarations: [
@@ -33,12 +36,15 @@ import {ContactHeroMainComponent} from "./containers/contact/contact-hero-main.c
     HowHeroMainComponent,
     FooterComponent,
     ContactComponent,
-    ContactHeroMainComponent
+    ContactHeroMainComponent,
+    AboutMainComponent,
+    WhatsappComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

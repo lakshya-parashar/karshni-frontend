@@ -1,9 +1,10 @@
 import {Component} from "@angular/core";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-contact',
   template: `
-    <div>
+    <div style="position:relative;">
       <app-contanct-hero-main></app-contanct-hero-main>
 
       <div class="main-container" style="background-color: #f8f9fa!important;">
@@ -20,19 +21,28 @@ import {Component} from "@angular/core";
             </div>
             <div class="mb-3 form-group">
               <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-              <textarea class="form-control" placeholder="Say hello to us" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <textarea class="form-control" placeholder="Say hello to us" id="exampleFormControlTextarea1"
+                        rows="3"></textarea>
             </div>
             <button type="submit" class="btn">Send</button>
           </form>
+
         </div>
       </div>
 
       <app-footer></app-footer>
+      <app-whatsapp></app-whatsapp>
+
     </div>
   `,
   styles: [`
     .container {
       padding: 4rem 0;
+    }
+
+    a {
+      width: 100%;
+      height: 3rem;
     }
 
     label {
@@ -45,6 +55,7 @@ import {Component} from "@angular/core";
       margin-top: 4rem;
       padding: 4rem;
     }
+
     input {
       padding: .8rem;
     }
@@ -79,4 +90,9 @@ import {Component} from "@angular/core";
   `]
 })
 export class ContactComponent {
+  constructor(private router: Router) {
+  }
 }
+
+
+//#4cc058

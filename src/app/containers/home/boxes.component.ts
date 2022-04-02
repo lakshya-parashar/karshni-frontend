@@ -11,8 +11,7 @@ import {Component} from "@angular/core";
             <img src="../../../assets/window-blue.png" style="width: 3rem;position:absolute;left: 0;"/>
           </div>
           <div class="text">
-            <p style="font-size: 1rem;">Interior Architecture</p>
-            <p style="font-size: 1rem">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p style="font-size: 1rem;">Turnkey Projects</p>
           </div>
         </div>
 
@@ -22,8 +21,7 @@ import {Component} from "@angular/core";
             <img src="../../../assets/measuring-blue.png" style="width: 3rem;position:absolute;left: 0;"/>
           </div>
           <div class="text">
-            <p style="font-size: 1rem;">Interior Design</p>
-            <p style="font-size: 1rem">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p style="font-size: 1rem;">Designing</p>
           </div>
         </div>
 
@@ -32,15 +30,18 @@ import {Component} from "@angular/core";
             <img src="../../../assets/interior-white.png" style="width: 3rem;"/>
             <img src="../../../assets/interior-blue.png" style="width: 3rem;position:absolute;left: 0;"/>
           </div>
-          <div class="text">
-            <p style="font-size: 1rem;">Furniture</p>
-            <p style="font-size: 1rem">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <div class="text d-flex align-items-center justify-content-center">
+            <p style="font-size: 1rem;">Architecture</p>
           </div>
         </div>
       </div>
     </div>
   `,
   styles: [`
+    p {
+      margin: 0;
+    }
+
     .boxes-div-container {
       transform: translateY(-10rem);
       height: 1px;
@@ -48,10 +49,15 @@ import {Component} from "@angular/core";
 
     .box {
       background: rgba(0, 0, 0, .5);
-      padding: 1rem;
-      width: 28% !important;
+      padding: 2rem;
+      width: auto !important;
       border-radius: 0.5rem;
       transition: 0.5s all;
+    }
+
+    .boxes .box:nth-child(2),
+    .boxes .box:nth-child(3) {
+      padding: 2rem 3rem;
     }
 
     .box:hover {
@@ -80,9 +86,6 @@ import {Component} from "@angular/core";
     }
 
     @media screen and (max-width: 1200px) {
-      .box {
-        width: 32% !important;
-      }
     }
 
     @media screen and (max-width: 992px) {

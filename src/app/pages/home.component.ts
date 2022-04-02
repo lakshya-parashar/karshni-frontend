@@ -3,15 +3,14 @@ import {Component} from "@angular/core";
 @Component({
   selector: 'app-home',
   template: `
-    <div class="h-100">
+    <div class="h-100" style="position: relative">
       <header>
         <app-navbar></app-navbar>
         <app-hero></app-hero>
       </header>
-      <app-boxes></app-boxes>
-      <app-red-circle></app-red-circle>
-      <app-why-us></app-why-us>
+      <!--<app-boxes></app-boxes>-->
       <app-footer></app-footer>
+      <app-whatsapp></app-whatsapp>
     </div>
   `,
   styles: [`

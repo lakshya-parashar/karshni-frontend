@@ -11,8 +11,7 @@ import {Component} from "@angular/core";
               <img src="../../../assets/interior-black.png" style="width: 3.5rem"/>
             </div>
             <div class="content">
-              <h4>Creative Solutions</h4>
-              <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin..</p>
+              <h4>Turnkey Projects</h4>
             </div>
           </div>
         </div>
@@ -23,9 +22,7 @@ import {Component} from "@angular/core";
               <img src="../../../assets/interior-black.png" style="width: 3.5rem"/>
             </div>
             <div class="content">
-              <h4>Creative Solutions</h4>
-              <p style="font-size: 1rem !important;">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                scelerisque ante sollicitudin..</p>
+              <h4>Designing</h4>
             </div>
           </div>
         </div>
@@ -36,9 +33,7 @@ import {Component} from "@angular/core";
               <img src="../../../assets/interior-black.png" style="width: 3.5rem"/>
             </div>
             <div class="content">
-              <h4>Creative Solutions</h4>
-              <p style="font-size: 1rem !important;">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                scelerisque ante sollicitudin..</p>
+              <h4>Architecture</h4>
             </div>
           </div>
         </div>

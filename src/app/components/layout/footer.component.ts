@@ -41,12 +41,14 @@ import {Component} from "@angular/core";
           </div>
           <div class="newsLetter give-padding" style="width: 40%;" fxLayout="column" fxLayoutGap="1.2rem">
             <h2>Studio KAi</h2>
-            <div class="input" style="position:relative;" fxLayout="row" fxLayoutAlign="start center">
-              <input placeholder="Subscribe Newsletter"/>
-              <button class="btn">Subscribe Now</button>
-            </div>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            <a href="/contact"><i class="fa-solid fa-location-dot"></i> View Location</a>
+            <a href="mailto:karshniarchitects@gmail.com"><i class="fa-solid fa-envelope"></i>
+              karshniarchitects@gmail.com</a>
+            <p fxLayout="column">
+              <a href="tel:08287179728"><i class="fa-solid fa-phone"></i>08287179728</a>
+              <a href="tel:09899618121" style="padding-left: 1.4rem">09899618121</a>
+              <a href="tel:09911618121" style="padding-left: 1.4rem">09911618121</a>
+            </p>
           </div>
         </div>
       </div>
@@ -75,28 +77,9 @@ import {Component} from "@angular/core";
       line-height: 2rem;
     }
 
-    input {
-      font-size: 1rem;
-      border: 1px solid transparent;
-      padding: 1rem;
-      border-radius: 2rem;
-      outline: none;
-      padding-right: 10.5rem;
-      width: 100%;
-    }
-
-    .btn {
-      position: absolute;
-      padding: 0.7rem 2rem;
-      border-radius: 2rem;
-      border: 1px solid #6caaa8;
-      background: #6caaa8;
-      color: white;
-      cursor: pointer;
-      right: 10px;
-    }
-
-    .first-list {
+    .first-list,
+    .second-list,
+    .third-list {
       flex-wrap: wrap;
     }
 
@@ -109,33 +92,26 @@ import {Component} from "@angular/core";
     }
 
     @media screen and (max-width: 1100px) {
-      .first {
-        width: 100% !important;
-        place-content: flex-start !important;
-      }
-
-      .newsLetter {
-        width: 35rem !important;
-      }
-
+      /*.first {*/
+      /*  width: 100% !important;*/
+      /*  place-content: flex-start !important;*/
+      /*}*/
+      /*.newsLetter {*/
+      /*  width: 35rem !important;*/
+      /*}*/
       section {
         padding: 0;
       }
     }
 
-    @media screen and (max-width: 599px) {
-      .btn {
-        padding: 0.7rem 0.5rem;
+    @media screen and (max-width: 768px) {
+      .first-list,
+      .second-list {
+        display: none;
       }
 
-      input {
-        padding-right: 8.5rem;
-      }
-    }
-
-    @media screen and (max-width: 425px) {
-      .card {
-        width: 90%;
+      .newsLetter {
+        width: 90% !important;
       }
     }
   `]

@@ -3,9 +3,17 @@ import {Component} from "@angular/core";
 @Component({
   selector: 'app-hero',
   template: `
-    <div style="height: 60vh" class="d-center flex-column">
-      <p>INTERIOR DESIGN COMPANY</p>
-      <h1>Experience Interior Design</h1>
+    <div class="container" style="height: 84%">
+      <div class="row h-100">
+        <div class="col-xl-8 col-lg-7 col-md-8">
+          <div class="d-flex justify-content-center flex-column h-100">
+            <h2>home interior designs, innovations in design| studio kai</h2>
+            <div>
+              <button>Book Free Consultation</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   `,
   styles: [`
@@ -13,31 +21,30 @@ import {Component} from "@angular/core";
       color: white;
     }
 
-    h1 {
-      font-size: 3rem;
-      font-family: 'Dela Gothic One', cursive;
-      width: 35%;
-      text-align: center;
+    h2 {
+      text-transform: capitalize;
+      font-family: 'Roboto', sans-serif;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
     }
 
-    @media screen and (max-width: 1255px) {
-      h1 {
-        width: 50%;
-      }
+    button {
+      background-color: white;
+      color: black;
+      border: 2px solid white;
+      outline: none;
+      padding: 1rem;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+      font-size: 1rem;
+      margin-top: 2rem;
+      transition: 0.5s all;
     }
 
-    @media screen and (max-width: 875px) {
-      h1 {
-        width: 65% !important;
-      }
+    button:hover {
+      background-color: transparent;
+      color: white;
+      font-weight: bold;
     }
-
-    @media screen and (max-width: 676px) {
-      h1 {
-        width: 100% !important;
-      }
-    }
-
   `]
 })
 

@@ -3,7 +3,7 @@ import {Component} from "@angular/core";
 @Component({
   selector: 'app-how-it-works',
   template: `
-    <div>
+    <div style="position: relative">
       <app-how-hero-main></app-how-hero-main>
       <div class="container" style="padding-top: 4rem">
         <div class="d-flex justify-content-center align-items-center flex-column">
@@ -14,7 +14,7 @@ import {Component} from "@angular/core";
 
         <div class="row d-flex align-items-center justify-content-center" style="padding: 3rem 0">
           <div class="image-container col-lg-4 d-flex justify-content-end align-items-center">
-            <img src="../../assets/Book_consultation.webp"/>
+            <img src="../../assets/book-consultation.jpeg"/>
           </div>
           <div class="col-lg-8 main-content-container" style="background-color: #f8f8f8;padding: 4rem">
             <div class="d-flex align-items-center justify-content-center flex-column">
@@ -42,7 +42,7 @@ import {Component} from "@angular/core";
 
         <div class="row d-flex align-items-center justify-content-center flex-row-reverse" style="padding: 3rem 0">
           <div class="reverse-image-container col-lg-4 d-flex justify-content-end align-items-center">
-            <img src="../../assets/design.webp"/>
+            <img src="../../assets/design.jpeg"/>
           </div>
           <div class="col-lg-8 main-content-container" style="background-color: #f8f8f8;padding: 4rem">
             <div class="d-flex align-items-center justify-content-center flex-column">
@@ -68,7 +68,7 @@ import {Component} from "@angular/core";
 
         <div class="row d-flex align-items-center justify-content-center" style="padding: 3rem 0">
           <div class="image-container col-lg-4 d-flex justify-content-end align-items-center">
-            <img src="../../assets/production.webp"/>
+            <img src="../../assets/production.jpeg"/>
           </div>
           <div class="col-lg-8 main-content-container" style="background-color: #f8f8f8;padding: 4rem">
             <div class="d-flex align-items-center justify-content-center flex-column">
@@ -94,7 +94,7 @@ import {Component} from "@angular/core";
 
         <div class="row d-flex align-items-center justify-content-center flex-row-reverse" style="padding: 3rem 0">
           <div class="reverse-image-container col-lg-4 d-flex justify-content-end align-items-center">
-            <img src="../../assets/installation.webp"/>
+            <img src="../../assets/installation.jpeg"/>
           </div>
           <div class="col-lg-8 main-content-container" style="background-color: #f8f8f8;padding: 4rem">
             <div class="d-flex align-items-center justify-content-center flex-column">
@@ -121,7 +121,7 @@ import {Component} from "@angular/core";
 
         <div class="row d-flex align-items-center justify-content-center" style="padding: 3rem 0">
           <div class="image-container col-lg-4 d-flex justify-content-end align-items-center">
-            <img src="../../assets/Handover.webp"/>
+            <img src="../../assets/handover.jpeg"/>
           </div>
           <div class="col-lg-8 main-content-container" style="background-color: #f8f8f8;padding: 4rem">
             <div class="d-flex align-items-center justify-content-center flex-column">
@@ -147,7 +147,7 @@ import {Component} from "@angular/core";
         </div>
 
       </div>
-
+      <app-whatsapp></app-whatsapp>
       <app-footer></app-footer>
     </div>
   `,
@@ -221,6 +221,16 @@ import {Component} from "@angular/core";
     @media screen and (max-width: 1200px) {
       p.text-center {
         width: 70% !important;
+      }
+
+      .image-container img {
+        height: auto;
+        max-width: 100%;
+      }
+
+      .reverse-image-container img {
+        height: auto;
+        max-width: 100%;
       }
     }
 
