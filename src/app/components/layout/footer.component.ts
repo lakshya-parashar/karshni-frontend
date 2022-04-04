@@ -10,30 +10,30 @@ import {Component} from "@angular/core";
             <h2>Company</h2>
             <ul style="padding: 0">
               <li><a href="#">Home</a></li>
-              <li><a href="#">How It Works</a></li>
-              <li><a href="#">About Us</a></li>
+              <li><a href="/how-it-works">How It Works</a></li>
+              <li><a href="/about">About Us</a></li>
               <li><a href="#">Projects</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Team</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="/portfolio">Portfolio</a></li>
+              <li><a href="/team">Team</a></li>
+              <li><a href="/contact">Contact</a></li>
             </ul>
           </div>
           <div class="second-list give-padding">
             <h2>Social Media</h2>
             <ul style="padding: 0">
-              <li><a href="#">
+              <li><a href="https://www.facebook.com/karshniarchitectsandinterior">
                 <i class="fa-brands fa-facebook-f"></i>
                 Facebook
               </a></li>
-              <li><a href="#">
+              <li><a href="https://www.linkedin.com/in/karshni-architects-246767187/">
                 <i class="fa-brands fa-linkedin-in"></i>
                 Linked In
               </a></li>
-              <li><a href="#">
+              <li><a href="https://instagram.com/karshniarchitectsinterior?utm_medium=copy_link">
                 <i class="fa-brands fa-instagram"></i>
                 Instagram
               </a></li>
-              <li><a href="#">
+              <li><a href="https://www.youtube.com/channel/UCKaN3TU_IbC6Jcg-x02HYGw">
                 <i class="fa-brands fa-youtube"></i>
                 Youtube
               </a></li>

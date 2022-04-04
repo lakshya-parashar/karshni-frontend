@@ -12,16 +12,20 @@ import {Router} from "@angular/router";
           <h1>SAY <span>HELLO</span></h1>
           <form style="background-color: white">
             <div class="mb-3 form-group">
-              <label for="inputPassword5" class="form-label">Full Name</label>
-              <input type="text" placeholder="Full Name" id="inputPassword5" class="form-control">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" placeholder="Full Name" id="name" class="form-control">
             </div>
             <div class="mb-3 form-group">
-              <label for="inputPassword5" class="form-label">Email</label>
-              <input type="text" placeholder="Email Address" id="inputPassword5" class="form-control">
+              <label for="email" class="form-label">Email</label>
+              <input type="text" placeholder="Email Address" id="email" class="form-control">
             </div>
             <div class="mb-3 form-group">
-              <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-              <textarea class="form-control" placeholder="Say hello to us" id="exampleFormControlTextarea1"
+              <label for="address" class="form-label">Address</label>
+              <input type="text" placeholder="Your Address" id="address" class="form-control">
+            </div>
+            <div class="mb-3 form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" placeholder="Say hello to us" id="message"
                         rows="3"></textarea>
             </div>
             <button type="submit" class="btn">Send</button>

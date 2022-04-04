@@ -70,10 +70,10 @@ import {Component} from "@angular/core";
               <a class="nav-link active" href="/about">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Projects</a>
+              <a class="nav-link active" href="/themes">Themes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Portfolio</a>
+              <a class="nav-link active" href="/portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="#">Team</a>

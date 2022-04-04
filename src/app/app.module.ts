@@ -20,6 +20,11 @@ import {ContactHeroMainComponent} from "./containers/contact/contact-hero-main.c
 import {CarouselModule} from "ngx-owl-carousel-o";
 import {AboutMainComponent} from "./containers/about/about-main.component";
 import {WhatsappComponent} from "./components/whatsapp.component";
+import {WeDesignComponent} from "./containers/home/we-design.component";
+import {ThemesComponent} from "./pages/themes.component";
+import {ThemesHeroComponent} from "./containers/themes/themes-hero.component";
+import {PortfolioComponent} from "./pages/portfolio.component";
+import {PortfolioHeroComponent} from "./containers/portfolio/portfolio-hero.component";
 
 @NgModule({
   declarations: [
@@ -38,7 +43,12 @@ import {WhatsappComponent} from "./components/whatsapp.component";
     ContactComponent,
     ContactHeroMainComponent,
     AboutMainComponent,
-    WhatsappComponent
+    WhatsappComponent,
+    WeDesignComponent,
+    ThemesComponent,
+    ThemesHeroComponent,
+    PortfolioComponent,
+    PortfolioHeroComponent
   ],
   imports: [
     BrowserModule,

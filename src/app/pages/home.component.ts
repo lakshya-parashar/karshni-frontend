@@ -8,6 +8,7 @@ import {Component} from "@angular/core";
         <app-navbar></app-navbar>
         <app-hero></app-hero>
       </header>
+      <app-we-design></app-we-design>
       <!--<app-boxes></app-boxes>-->
       <app-footer></app-footer>
       <app-whatsapp></app-whatsapp>
