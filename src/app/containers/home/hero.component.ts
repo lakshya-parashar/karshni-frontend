@@ -9,7 +9,9 @@ import {Component} from "@angular/core";
           <div class="d-flex justify-content-center flex-column h-100">
             <h2>home interior designs, innovations in design| studio kai</h2>
             <div>
-              <button>Book Free Consultation</button>
+              <a href="/contact">
+                <button>Book Free Consultation</button>
+              </a>
             </div>
           </div>
         </div>

@@ -25,6 +25,8 @@ import {ThemesComponent} from "./pages/themes.component";
 import {ThemesHeroComponent} from "./containers/themes/themes-hero.component";
 import {PortfolioComponent} from "./pages/portfolio.component";
 import {PortfolioHeroComponent} from "./containers/portfolio/portfolio-hero.component";
+import {TeamComponent} from "./pages/team.component";
+import {TeamHeroComponent} from "./containers/team/team-hero.component";
 
 @NgModule({
   declarations: [
@@ -48,7 +50,9 @@ import {PortfolioHeroComponent} from "./containers/portfolio/portfolio-hero.comp
     ThemesComponent,
     ThemesHeroComponent,
     PortfolioComponent,
-    PortfolioHeroComponent
+    PortfolioHeroComponent,
+    TeamComponent,
+    TeamHeroComponent
   ],
   imports: [
     BrowserModule,

@@ -76,7 +76,7 @@ import {Component} from "@angular/core";
               <a class="nav-link active" href="/portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Team</a>
+              <a class="nav-link active" href="/team">Team</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="/contact">Contact</a>
