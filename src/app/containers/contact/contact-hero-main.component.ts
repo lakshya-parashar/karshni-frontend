@@ -20,7 +20,7 @@ import {Component} from "@angular/core";
   styles: [`
     .main {
       height: 80vh;
-      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../../assets/CF4.jpg");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../../assets/H3-rec.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       width: 100%;

@@ -37,13 +37,13 @@ import {Component} from "@angular/core";
               <li class="nav-item">
                 <a class="nav-link active d-center info" style="gap: .5rem" aria-current="page" href="#">
                   <i class="fa-solid fa-phone" style="height: 50%"></i>
-                  <p style="margin: 0">+91 935 4585 559</p>
+                  <a href="tel:9354585559" style="margin: 0">+91 935 4585 559</a>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active d-center info" style="gap: .5rem" href="#">
                   <i class="fa-solid fa-envelope" style="height: 50%"></i>
-                  <p style="margin: 0">karshniarchitects@gmail.com</p>
+                  <a href="mailto:karshniarchitects@gmail.com" style="margin: 0">karshniarchitects@gmail.com</a>
                 </a>
               </li>
             </ul>
@@ -90,6 +90,18 @@ import {Component} from "@angular/core";
     * {
       color: white !important;
       font-weight: 600;
+    }
+
+    .navbar-toggler {
+      border-color: white !important;
+    }
+
+    .navbar-toggler-icon {
+      background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(255,255,255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    a {
+      text-decoration: none;
     }
 
     i {

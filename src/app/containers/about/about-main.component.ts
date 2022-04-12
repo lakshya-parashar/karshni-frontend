@@ -5,7 +5,7 @@ import {Component} from "@angular/core";
   template: `
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 d-flex image">
+        <div class="col-lg-4 d-flex align-items-center justify-content-center image">
           <img class="img-fluid" src="../../../assets/3_1.jpg"/>
         </div>
         <div class="col-lg-8 py-1 content">
@@ -39,7 +39,8 @@ import {Component} from "@angular/core";
   `,
   styles: [`
     .container {
-      padding: 3rem 0;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
     }
 
     p {
@@ -47,13 +48,13 @@ import {Component} from "@angular/core";
     }
 
     @media screen and (max-width: 576px) {
-      .image {
-        padding: 0;
-        padding: 1rem;
-      }
+      /*.image {*/
+      /*  padding: 0;*/
+      /*  padding: 1rem;*/
+      /*}*/
 
       .content {
-        padding: 1rem;
+        /*padding: 1rem;*/
       }
     }
   `]

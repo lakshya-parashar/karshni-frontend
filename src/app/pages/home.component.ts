@@ -8,8 +8,9 @@ import {Component} from "@angular/core";
         <app-navbar></app-navbar>
         <app-hero></app-hero>
       </header>
-      <app-we-design></app-we-design>
+<!--      <app-we-design></app-we-design>-->
       <!--<app-boxes></app-boxes>-->
+      <app-our-partners></app-our-partners>
       <app-footer></app-footer>
       <app-whatsapp></app-whatsapp>
     </div>
@@ -17,7 +18,7 @@ import {Component} from "@angular/core";
   styles: [`
     header {
       height: 100vh;
-      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../assets/1.jpg");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../assets/H1-rec.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       width: 100%;

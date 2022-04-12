@@ -34,6 +34,7 @@ import {Router} from "@angular/router";
         </div>
       </div>
 
+
       <app-footer></app-footer>
       <app-whatsapp></app-whatsapp>
 

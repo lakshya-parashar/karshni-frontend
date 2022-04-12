@@ -17,7 +17,6 @@ import {FooterComponent} from "./components/layout/footer.component";
 import {FlexLayoutModule} from "@angular/flex-layout";
 import {ContactComponent} from "./pages/contact.component";
 import {ContactHeroMainComponent} from "./containers/contact/contact-hero-main.component";
-import {CarouselModule} from "ngx-owl-carousel-o";
 import {AboutMainComponent} from "./containers/about/about-main.component";
 import {WhatsappComponent} from "./components/whatsapp.component";
 import {WeDesignComponent} from "./containers/home/we-design.component";
@@ -27,6 +26,13 @@ import {PortfolioComponent} from "./pages/portfolio.component";
 import {PortfolioHeroComponent} from "./containers/portfolio/portfolio-hero.component";
 import {TeamComponent} from "./pages/team.component";
 import {TeamHeroComponent} from "./containers/team/team-hero.component";
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {ArtDecoComponent} from "./pages/themes/art-deco.component";
+import {AccordionModule} from 'primeng/accordion';     //accordion and accordion tab
+import {MenuItem} from 'primeng/api';
+import {TabViewModule} from "primeng/tabview";
+import {CarouselModule} from "ngx-owl-carousel-o";
+import {OurPartnersComponent} from "./containers/home/our-partners.component";                  //api
 
 @NgModule({
   declarations: [
@@ -52,12 +58,17 @@ import {TeamHeroComponent} from "./containers/team/team-hero.component";
     PortfolioComponent,
     PortfolioHeroComponent,
     TeamComponent,
-    TeamHeroComponent
+    TeamHeroComponent,
+    ArtDecoComponent,
+    OurPartnersComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    BrowserAnimationsModule,
     FlexLayoutModule,
+    AccordionModule,
+    TabViewModule,
     CarouselModule
   ],
   providers: [],

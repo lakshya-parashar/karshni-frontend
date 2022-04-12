@@ -12,7 +12,6 @@ import {Component} from "@angular/core";
               <li><a href="#">Home</a></li>
               <li><a href="/how-it-works">How It Works</a></li>
               <li><a href="/about">About Us</a></li>
-              <li><a href="#">Projects</a></li>
               <li><a href="/portfolio">Portfolio</a></li>
               <li><a href="/team">Team</a></li>
               <li><a href="/contact">Contact</a></li>
@@ -41,7 +40,7 @@ import {Component} from "@angular/core";
           </div>
           <div class="newsLetter give-padding" style="width: 40%;" fxLayout="column" fxLayoutGap="1.2rem">
             <h2>Studio KAi</h2>
-            <a href="/contact"><i class="fa-solid fa-location-dot"></i> View Location</a>
+            <a href="https://goo.gl/maps/mPSTf5JVHePfDuKS7" target="_blank"><i class="fa-solid fa-location-dot"></i> View Location</a>
             <a href="mailto:karshniarchitects@gmail.com"><i class="fa-solid fa-envelope"></i>
               karshniarchitects@gmail.com</a>
             <p fxLayout="column">
