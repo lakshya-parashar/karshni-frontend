@@ -21,7 +21,7 @@ import {Component} from "@angular/core";
               <div class="w-75 content-container">
                 <h2 style="padding: 1rem 0">
                   <img class="img-icon"
-                       src="https://cdn-dobdp.nitrocdn.com/EOBoCcEiFzMGOHgMFgfWPTnqQTdhXpWl/assets/static/optimized/rev-3a30f7f/wp-content/uploads/2021/08/book_Icon.png"/>
+                       src="../../assets/icons/book_Icon.webp"/>
                   Book your consultation
                 </h2>
                 <div>

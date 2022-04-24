@@ -1,5 +1,6 @@
 import {Component} from "@angular/core";
 import {Router} from "@angular/router";
+import {FormControl, FormGroup, Validators} from "@angular/forms";
 
 @Component({
   selector: 'app-contact',
@@ -10,22 +11,22 @@ import {Router} from "@angular/router";
       <div class="main-container" style="background-color: #f8f9fa!important;">
         <div class="container">
           <h1>SAY <span>HELLO</span></h1>
-          <form style="background-color: white">
+          <form [formGroup]="contactForm" style="background-color: white">
             <div class="mb-3 form-group">
               <label for="name" class="form-label">Full Name</label>
-              <input type="text" placeholder="Full Name" id="name" class="form-control">
+              <input formControlName="name" type="text" placeholder="Full Name" id="name" class="form-control">
             </div>
             <div class="mb-3 form-group">
               <label for="email" class="form-label">Email</label>
-              <input type="text" placeholder="Email Address" id="email" class="form-control">
+              <input formControlName="email" type="text" placeholder="Email Address" id="email" class="form-control">
             </div>
             <div class="mb-3 form-group">
               <label for="address" class="form-label">Address</label>
-              <input type="text" placeholder="Your Address" id="address" class="form-control">
+              <input formControlName="address" type="text" placeholder="Your Address" id="address" class="form-control">
             </div>
             <div class="mb-3 form-group">
               <label for="message" class="form-label">Message</label>
-              <textarea class="form-control" placeholder="Say hello to us" id="message"
+              <textarea formControlName="message" class="form-control" placeholder="Say hello to us" id="message"
                         rows="3"></textarea>
             </div>
             <button type="submit" class="btn">Send</button>
@@ -95,6 +96,13 @@ import {Router} from "@angular/router";
   `]
 })
 export class ContactComponent {
+  contactForm: FormGroup = new FormGroup({
+    name: new FormControl(null, ),
+    email: new FormControl(null, ),
+    address: new FormControl(null, ),
+    message: new FormControl(null)
+  });
+
   constructor(private router: Router) {
   }
 }

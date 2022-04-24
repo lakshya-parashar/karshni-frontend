@@ -32,7 +32,11 @@ import {AccordionModule} from 'primeng/accordion';     //accordion and accordion
 import {MenuItem} from 'primeng/api';
 import {TabViewModule} from "primeng/tabview";
 import {CarouselModule} from "ngx-owl-carousel-o";
-import {OurPartnersComponent} from "./containers/home/our-partners.component";                  //api
+import {OurPartnersComponent} from "./containers/home/our-partners.component";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import {InfoComponent} from "./containers/home/info.component";
+import {HappyClientsComponent} from "./containers/home/happy-clients.component";
+import {TrustOurTeamComponent} from "./containers/home/trust-our-team.component";                  //api
 
 @NgModule({
   declarations: [
@@ -60,7 +64,10 @@ import {OurPartnersComponent} from "./containers/home/our-partners.component";  
     TeamComponent,
     TeamHeroComponent,
     ArtDecoComponent,
-    OurPartnersComponent
+    OurPartnersComponent,
+    InfoComponent,
+    HappyClientsComponent,
+    TrustOurTeamComponent
   ],
   imports: [
     BrowserModule,
@@ -69,7 +76,9 @@ import {OurPartnersComponent} from "./containers/home/our-partners.component";  
     FlexLayoutModule,
     AccordionModule,
     TabViewModule,
-    CarouselModule
+    CarouselModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -20,6 +20,7 @@ import {Component} from "@angular/core";
       padding: 0.5rem;
       border-top-left-radius: 50%;
       border-bottom-left-radius: 50%;
+      z-index: 100;
     }
   `]
 })

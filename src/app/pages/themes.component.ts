@@ -522,6 +522,10 @@ import {Router} from "@angular/router";
       transform: scale(1.1);
     }
 
+    .p-tabpanel-13-label {
+      margin-right: 4rem !important;
+    }
+
     * {
       border-color: transparent !important;
     }

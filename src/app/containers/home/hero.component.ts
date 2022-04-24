@@ -47,6 +47,12 @@ import {Component} from "@angular/core";
       color: white;
       font-weight: bold;
     }
+
+    @media screen and (max-width: 576px) {
+      h2 {
+        font-size: 2rem;
+      }
+    }
   `]
 })
 
