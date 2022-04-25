@@ -8,7 +8,7 @@ import {FormControl, FormGroup, Validators} from "@angular/forms";
     <div style="position:relative;">
       <app-contanct-hero-main></app-contanct-hero-main>
 
-      <div class="main-container" style="background-color: #f8f9fa!important;">
+      <div class="main-container" style="background-color: #f8f9fa!important;" (submit)="send()">
         <div class="container">
           <h1>SAY <span>HELLO</span></h1>
           <form [formGroup]="contactForm" style="background-color: white">
@@ -96,16 +96,33 @@ import {FormControl, FormGroup, Validators} from "@angular/forms";
   `]
 })
 export class ContactComponent {
-  contactForm: FormGroup = new FormGroup({
-    name: new FormControl(null, ),
-    email: new FormControl(null, ),
-    address: new FormControl(null, ),
-    message: new FormControl(null)
-  });
+  contactForm: FormGroup;
+  url: any;
+  name: any;
+  email: any;
+  address: any;
+  message: any;
 
   constructor(private router: Router) {
+    this.contactForm = new FormGroup({
+      name: new FormControl(null,),
+      email: new FormControl(null,),
+      address: new FormControl(null,),
+      message: new FormControl(null)
+    });
+  }
+
+  send() {
+    this.name = this.contactForm.controls['name'].value;
+    this.email = this.contactForm.controls['email'].value;
+    this.address = this.contactForm.controls['address'].value;
+    this.message = this.contactForm.controls['message'].value;
+    this.url = `https://wa.me/9399616710?text='My Name is:- ${this.name}\n
+    My Email is:- ${this.email}\n
+    My Address is:- ${this.address}\n
+    ${this.message}'`;
+
+    // @ts-ignore
+    window.open(this.url, '_blank').focus();
   }
 }
-
-
-//#4cc058

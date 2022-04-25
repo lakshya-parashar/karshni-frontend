@@ -20,19 +20,19 @@ import {Component} from "@angular/core";
           <div class="second-list give-padding">
             <h2>Social Media</h2>
             <ul style="padding: 0">
-              <li><a href="https://www.facebook.com/karshniarchitectsandinterior">
+              <li><a href="https://www.facebook.com/karshniarchitectsandinterior" target="_blank">
                 <i class="fa-brands fa-facebook-f"></i>
                 Facebook
               </a></li>
-              <li><a href="https://www.linkedin.com/in/karshni-architects-246767187/">
+              <li><a href="https://www.linkedin.com/in/karshni-architects-246767187/" target="_blank">
                 <i class="fa-brands fa-linkedin-in"></i>
                 Linked In
               </a></li>
-              <li><a href="https://instagram.com/karshniarchitectsinterior?utm_medium=copy_link">
+              <li><a href="https://instagram.com/karshniarchitectsinterior?utm_medium=copy_link" target="_blank">
                 <i class="fa-brands fa-instagram"></i>
                 Instagram
               </a></li>
-              <li><a href="https://www.youtube.com/channel/UCKaN3TU_IbC6Jcg-x02HYGw">
+              <li><a href="https://www.youtube.com/channel/UCKaN3TU_IbC6Jcg-x02HYGw" target="_blank">
                 <i class="fa-brands fa-youtube"></i>
                 Youtube
               </a></li>

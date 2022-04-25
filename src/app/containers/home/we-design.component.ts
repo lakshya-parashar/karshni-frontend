@@ -20,7 +20,7 @@ import {Component} from "@angular/core";
                     <div class="d-center flex-column w-75" style="background: white">
                       <h2 style="margin-top: 0.5rem !important;color: #f04e45 !important;font-weight: bold !important;">
                         5+</h2>
-                      <p>Years of Experience</p>
+                      <p class="text-center">Years of Experience</p>
                     </div>
                   </div>
                   <img class="img-fluid image" src="../../../assets/Professional_Interior_Services.webp"
@@ -38,7 +38,7 @@ import {Component} from "@angular/core";
                     <div class="d-center flex-column w-75" style="background: white">
                       <h2 style="margin-top: 0.5rem !important;color: #f04e45 !important;font-weight: bold !important;">
                         2000+</h2>
-                      <p>Customers</p>
+                      <p class="text-center">Customers</p>
                     </div>
                   </div>
                   <img class="img-fluid image" src="../../../assets/Full_Service_Offering.webp"
@@ -55,7 +55,7 @@ import {Component} from "@angular/core";
                     <div class="d-center flex-column w-75" style="background: white">
                       <h2 style="margin-top: 0.5rem !important;color: #f04e45 !important;font-weight: bold !important;">
                         100+</h2>
-                      <p>Designers</p>
+                      <p class="text-center">Designers</p>
                     </div>
                   </div>
                   <img class="img-fluid image" src="../../../assets/Design_Talent_Powerhouse.webp"
