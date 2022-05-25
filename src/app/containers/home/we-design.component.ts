@@ -8,7 +8,9 @@ import {Component} from "@angular/core";
         <div class="row">
           <div class="col-lg-3 col-md-3 heading-container" style="padding-top: 2rem;">
             <p class="heading">We Design Every Project As One Off</p>
-            <a href="#">
+            <a
+              href="https://www.google.com/search?q=studio+kai-best+interior+designer+in+noida%2C+f-46%2C+block+f%2C+sector+51%2C+noida%2C+uttar+pradesh+201301&rlz=1C1CHBD_enIN859IN859&sxsrf=APq-WBsZEYVzPuhfvd44xFWaawwEKAOuQQ%3A1650444990613&ei=vspfYoWPJcSTr7wPpZeZ-Ao&oq=+stdio+k&gs_lcp=Cgdnd3Mtd2l6EAEYAjIHCCMQsQIQJzIHCCMQsQIQJzIHCCMQsQIQJzIKCC4QxwEQ0QMQQzIKCC4QxwEQrwEQCjIECAAQCjIKCC4QxwEQ0QMQCjIKCC4QxwEQrwEQCjIKCC4QxwEQrwEQCjIKCC4QxwEQrwEQCjoHCCMQ6gIQJzoNCC4QxwEQrwEQ6gIQJzoECCMQJzoECC4QQzoECAAQQzoLCAAQgAQQsQMQgwE6EAgAEIAEEIcCELEDEIMBEBQ6BwgAELEDEEM6CAgAEIAEELEDOgUIABCABDoHCCMQsAIQJzoKCC4QxwEQ0QMQDToECAAQDToKCC4QxwEQrwEQDToGCAAQDRAKOgYIABANEB46CAgAEA0QBRAeOgsIABDJAxAIEA0QHjoICAAQCBANEB5KBAhBGABKBAhGGABQAFisRWDIVGgFcAF4AIABwwGIAbsPkgEEMC4xMZgBAKABAbABCsABAQ&sclient=gws-wiz#lrd=0x390cf1eb52a2ebc5:0xe2699e4eeb7f5bf4,1"
+              target="_blank">
               <img style="width: 10rem;" src="../../../assets/google.png" alt="">
             </a>
           </div>
